@@ -1,0 +1,42 @@
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--bg-color);
+    flex-direction: column;
+    width: 100%;
+    margin: 20px auto;
+}
+.contact-content{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 1rem;
+
+    background-color: var(--bg-color);
+    width: 100%;
+}
+.contact-card{
+    width: 50%;
+}
+.contact-card form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contact-card form input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--accent-color);
+}
+.contact-card form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--accent-color);
+}
+.contact-card form button{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--accent-color);
+}

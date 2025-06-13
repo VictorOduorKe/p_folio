@@ -1,0 +1,21 @@
+.skill-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--bg-color);
+    flex-direction: column;
+    width: 100%;
+    margin: 20px auto;
+}
+.skill-content{     
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--bg-color);
+    width: 100%;
+}
+.skill-card{
+    width: 50%;
+}
