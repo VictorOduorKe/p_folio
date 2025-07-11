@@ -3,14 +3,14 @@ import '../css/skills.css'
 const data=[
     {
         id:1,
-        title:"Skill 1",
-        description:"Skill 1 description",
+        title:"Web Design",
+        description:"Am proficient in designing Modern cutting edge websites",
         image:"https://via.placeholder.com/150",
     },
     {
         id:2,
-        title:"Skill 2",
-        description:"Skill 2 description",
+        title:"System Developer",
+        description:"i have 1 year experience in developing oustanding functional systems in PHP as the backend",
         image:"https://via.placeholder.com/150",
     },
     {
@@ -28,7 +28,7 @@ const data=[
 ]   
 const Skillss = () => {
         return (
-            <section className="skill-container">
+            <section className="skill-container" id='skills'>
                 <h2>Skills</h2>
                 <div className="skill-content">
                     {
