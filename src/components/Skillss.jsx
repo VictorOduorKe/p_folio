@@ -1,29 +1,30 @@
 import React from 'react'
 import '../css/skills.css'
+import skill_mage from "../assets/portfolio.png"
 const data=[
     {
         id:1,
         title:"Web Design",
         description:"Am proficient in designing Modern cutting edge websites",
-        image:"https://via.placeholder.com/150",
+        image:skill_mage,
     },
     {
         id:2,
-        title:"System Developer",
+        title:"Software Developer",
         description:"i have 1 year experience in developing oustanding functional systems in PHP as the backend",
-        image:"https://via.placeholder.com/150",
+        image:skill_mage,
     },
     {
         id:3,
-        title:"Skill 3",
+        title:"System Adminsitration",
         description:"Skill 3 description",
-        image:"https://via.placeholder.com/150",
+        image:skill_mage,
     },
     {
         id:3,
-        title:"Skill 3",
+        title:"Database Management",
         description:"Skill 3 description",
-        image:"https://via.placeholder.com/150",
+        image:skill_mage,
     },
 ]   
 const Skillss = () => {
@@ -34,8 +35,8 @@ const Skillss = () => {
                     {
                         data.map((skill)=>(
                             <div className="skill-card" key={skill.id}>
-                                <img src={skill.image} alt={skill.title} />
                                 <h3>{skill.title}</h3>
+                                <img src={skill.image} alt={skill.title} />
                                 <p>{skill.description}</p>
                             </div>
                         ))

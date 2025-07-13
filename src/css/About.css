@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 0rem;
     background-color: var(--bg-color);
     flex-direction: column;
     width: 100%;
@@ -49,7 +49,7 @@
 .about-image img {
     width: 300px;
     height: 300px;
-    padding:3px;
+    padding:10px;
     border-radius: 50%;
     /* name   duration timing‑fn delay iteration‑count fill‑mode */
     animation: animate_background 2s   linear     0.2s  infinite        forwards;
@@ -59,4 +59,34 @@
   0%, 100% { background: var(--highlight-color); 
 }
   50%      { background: var(--accent-color)}
+}
+/*small screen*/
+@media (max-width:800px) {
+  .about-content{
+    flex-direction: column;
+    width: 100%;
+  }
+  .about-content .card{
+    width: 100%;
+    height: 100%;
+  }
+  .about-text{
+    width: 100%;
+    height: 100%;
+  }
+  .about-image {
+    width: 100%;
+    height: 100%;
+  }
+  .about-image img{
+    width:250px;
+    height: 250px;
+  }
+}
+@media (max-width:400px) {
+  .about-image img{
+    width:150px;
+    height: 150px;
+    padding:0
+  }
 }

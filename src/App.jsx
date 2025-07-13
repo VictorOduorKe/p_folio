@@ -8,7 +8,7 @@ const App = () => {
   return (
     <>
       <header>
-        <h1><a href="#home">My Portfolio</a></h1>
+        <h1><a href="/">My Portfolio</a></h1>
         <nav>
           <ul>
             <li><a href="#about">About</a></li>
